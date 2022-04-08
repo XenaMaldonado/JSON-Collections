@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+  margin: 5vw 10vw 0px 10vw;
+  padding: 0px;
+  background-color: #F1cbfa;
+  color: #d08e83;
+  font-family: 'Lato', sans-serif;
+  font-size: 2rem;
+}
+
+h1{
+  font-weight: bolder;
+  color: #35055c;
+  text-align: center;
+}
+
+h3 {
+  font-weight: 700;
+  margin-top: 0;
+  text-align: center;
+}
+
+h4 {
+  margin: 0;
+  padding-bottom: 1vmin;
+}
+
+h5 {
+  margin-top: 0;
+  font-weight: 500;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul{
+  margin-top: 0;
+}
+
+#contentGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 5vmin;
+  background-color: #A173ad;
+  padding: 2vmin;
+  font-size: 1.5rem;
+}
+
+.box {
+  background-color: #F2bdff;
+  color: #51087b;
+  margin: 20px;
+  padding: 20px;
+  border: 4px solid purple;
+}
+
+.contentItem {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding: 1vmin;
+  color: #eee;
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.62);
+  box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.62);
+  border: 2px solid #eee;
+  border-radius: 0.25vmin;
+  height: 100%;
+}
+
+.contentItem * {
+}
+
+.footerImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.25vmin;
+  border: 1px solid white;
+}
